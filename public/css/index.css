@@ -1,6 +1,9 @@
 body{
-    height:100%;
     padding:0 !important;
+}
+
+.wrapper{
+    height:100%;
 }
 
 a{
