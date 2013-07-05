@@ -11,6 +11,6 @@ set :prawn, { :page_layout => :landscape }
 set :haml, { :format => :html5 } # default Haml format is :xhtml
 
 get '/' do
-  send_file File.expand_path('layout.haml', settings.public_folder)
+  haml :layout
 end
 
